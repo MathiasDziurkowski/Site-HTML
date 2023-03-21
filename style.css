@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald&display=swap');
+
+h1, h2
+{
+    background-color: rgb(120, 120, 120, 0.5);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes titulo {
+
+    0%
+    {
+        width: 50%;
+        background-color: rgb(33, 33, 33, 0.5);
+    }
+
+    100%
+    {
+        width: 100%;
+        background-color: rgb(120, 120, 120, 0.5);
+    }
+    
+}
+
+body
+{
+    background-color: rgb(33, 33, 33);
+    animation-name: entrada;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+
+@keyframes entrada {
+
+    0%
+    {
+        transform:translateY(-100%)
+    }
+
+    100%
+    {
+        transform:translateY(0%)
+    }
+    
+}
+
+h3
+{
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    font-family: 'Oswald', sans-serif;
+    border-color: white;
+    color: white;
+    border-style: outset;
+    border:200px,200px;
+    border-width: 3px;
+}
+
+pre
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: white;
+    color: white;
+    border-style: outset;
+    border:200px,200px;
+    border-width: 3px;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.transicao
+{
+    transition-delay: 2ms;
+    transition-duration: 1s;
+    
+}
+.transicao:hover
+{
+    border-color: white;
+    image-orientation:flip;
+    transform: scale(1.05);
+    box-shadow: 5px 10px rgb(0, 0, 0, 0.25)
+    
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-radius: 5px;
+    border-style: groove;
+    border: 320px, 420px;
+    border-width: 5px;
+    box-shadow: 5px 10px rgb(0, 0, 0, 0.5)
+}
+
+ul, li, ol, label
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+a
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 150px;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px gray;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+a:hover
+{
+    background-color: aquamarine;
+    transform: translateY(-7px);
+    box-shadow: 1px 5px 15px aquamarine;
+}
+
+
+
+
+
+
+    
+
+
+
